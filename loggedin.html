@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <title>Vizoome</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <meta name="description" content="Vizoome - Visual Resume">
+    <meta name="keywords" content="Vizoome Home, Vizoome, vizoomehome">
+    <script src="https://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <!-- Core CSS -->
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.css"><!-- Bootstrap -->
+    <link type="text/css" rel="stylesheet" href="css/font-awesome.css"><!-- font-awesome -->
+    <link type="text/css" rel="stylesheet" href="css/animate.min.css"><!-- Animation -->
+    <link type="text/css" rel="stylesheet" href="css/flexslider.css"><!-- FlexSlider CSS -->
+    <link type="text/css" rel="stylesheet" href="css/style.css"><!-- Light Theme Core CSS -->
+    <link type="text/css" rel="stylesheet" href="css/custom.css"><!-- Light Theme Core CSS -->
+    <!-- Google Fonts here -->
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+</head>
+<body>
+    <div id="mask">
+        <div id="loader">      
+        </div>
+    </div>
+    <!-- =================================================
+    Preloader Area End -->
+    <!-- Header Area Start 
+    ====================================================== -->
+   <header class="header-area">
+    	<div class="container-fluid">
+        	<!-- Start: Top Logo Area -->
+            <div class="col-md-2 left-side">
+            	<div class="logo"><a href="index.html"><h3>Vizoo<span>me</span></h3></a></div>
+            </div>
+            <!-- End: Top Logo Area -->
+            
+        	<!-- Start:Main Navigation -->
+            <div class="col-md-7 col-lg-7 hidden-sm">
+            	<div class="menu-bar">
+            		<nav>
+                        <ul class="menu">
+                        	<li><a href="loggedin.html">Home</a></li>
+                        	<li><a href="#">About Us</a></li>
+							<li><a href="#">Jobs</a>
+                            	<ul class="single-item">
+                                	<li><a href="searchjobs.html">Search Jobs</a></li>
+                                	<li><a href="postopportunities.html">Post Job</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Talents</a>
+                            	<ul class="single-item">
+								<li><a href="candidatelist.html">Browse Candidates</a></li>
+                                	<li><a href="searchtalents.html">Search Talent</a></li>
+                                	<li><a href="createvisualresume.html">Create Visual Resume</a></li>
+                                </ul>
+                            </li>
+							<li><a href="pricing.html">Pricing</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+                	</nav>
+                </div>
+            </div>
+			<!-- <div class="col-md-4 col-xs-12 col-lg-4 col-sm-4 hidden-xs rightmenu">
+				<ul class="">
+                     <li><a href="login.html" class="button-medium"><i class="fa fa-sign-in"></i>&nbsp;&nbsp;Login</a></li>
+                     <li><a href="join.html" class="button-medium"><i class="fa fa-user"></i>&nbsp;&nbsp;Signup</a></li>
+                     <li><a href="employerlogin.html" class="button-medium"><i class="fa fa-group"></i>&nbsp;&nbsp;Employer Login</a></li>
+				</ul>
+			</div> -->
+			<div class="col-md-3 col-lg-3 hidden-sm hidden-xs">
+			<ul class="nav navbar-nav pull-right profile-settings">
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                        <span class="profilepic"><img src="img/profile.png"/></span> 
+                        <strong>John Stevenson</strong>
+                        <i class="fa fa-chevron-down"></i>
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li>
+                            <div class="navbar-login">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12">
+                                        <p class="text-left maincolor"><strong>John Stevenson</strong></p>
+                                        <p class="text-left small">xyz@abc.com</p>
+										<p class="divider"></p>
+                                        <a href="candidateprofile.html" class="pull-left maincolor"><strong>Edit Profile<strong></a>
+                                        <a href="login.html" class="pull-right maincolor"><strong>Signout<strong></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+			</div>
+            <!-- End:Main Navigation -->
+            
+            <!-- Start:Mobile Navigation -->
+            <div class="mob-icon"><i class="fa fa-bars"></i></div>
+            <div id="side-panel-menu">
+				<div class="col-xs-12">
+			<ul class="nav navbar-nav profile-settings">
+                <li class="dropdown text-center">
+                        <span class="profilepic"><img src="img/profile.png"/></span> 
+                    <ul class="dropdown-menu">
+                        <li>
+                            <div class="navbar-login">
+                                <div class="row">
+                                    <div class="col-lg-12 col-md-12">
+                                        <p class="text-center maincolor"><strong>John Stevenson</strong></p>
+                                        <p class="text-center small">xyz@abc.com</p>
+										<p class="divider"></p>
+                                        <a href="candidateprofile.html" class="maincolor"><strong>Edit Profile</strong></a>
+                                        <a href="login.html" class="maincolor"><strong class="pull-right">Signout</strong></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+			</div>
+				<ul>
+                        	<li><a href="loggedin.html">Home</a></li>
+                        	<li><a href="#">About Us</a></li>
+							<li><a href="#">Jobs</a>
+                            	<ul class="single-item">
+                                	<li><a href="searchjobs.html">Search Jobs</a></li>
+                                	<li><a href="postopportunities.html">Post Job</a></li>
+                                </ul>
+                            </li>
+                            <li><a href="#">Talents</a>
+                            	<ul class="single-item">
+								<li><a href="candidatelist.html">Browse Candidates</a></li>
+                                	<li><a href="searchtalents.html">Search Talent</a></li>
+                                	<li><a href="createvisualresume.html">Create Visual Resume</a></li>
+                                </ul>
+                            </li>
+							<li><a href="pricing.html">Pricing</a></li>
+                            <li><a href="#">Contact</a></li>
+                        </ul>
+			</div>
+            <!-- End:Mobile Navigation -->
+        
+        </div>
+    </header>
+    <!-- =================================================
+    Header Area End -->
+    <!-- Banner Area 
+    ====================================================== -->
+	<section class="main-banner">
+    	<!-- Start:Slider area -->
+		<div class="slider fixed">
+			<div class="flexslider">
+				<ul class="slides">
+					<!-- Start: Banner Slide 01 -->
+					<li>
+						<img src="img/banner-1.jpg"  alt="">
+						<div class="caption">
+                        	<div class="container">
+								<h4>Find the real opportunity<br>10 minutes, that's all it takes!</h4>
+								<h4>Search Talents & Jobs</h4>
+                            </div>
+						</div>
+					</li>
+					<!-- End: Banner Slide 01 -->
+          
+					<!-- Start: Banner Slide 02 -->
+					<li>
+						<img src="img/banner-2.png"  alt="">
+						<div class="caption">
+                        	<div class="container">
+								<h4>Find the real opportunity<br>10 minutes, that's all it takes!</h4>
+								<h4>Search Talents & Jobs</h4>
+                            </div>
+						</div>
+					</li>
+					<!-- End: Banner Slide 02 -->
+          
+					<!-- Start: Banner Slide 01 -->
+					<li>
+						<img src="img/banner-3.jpg"  alt="">
+						<div class="caption">
+                        	<div class="container">
+								<h4>Find the real opportunity<br>10 minutes, that's all it takes!</h4>
+								<h4>Search Talents & Jobs</h4>
+                            </div>
+						</div>
+					</li>
+					<!-- End: Banner Slide 01 -->
+				</ul>
+			</div>
+			<form class="search-bar">
+            	<ul class="search-form-area">
+                    <li><i class="fa fa-search"></i><input placeholder="#Company, #Position, #Skill, #Yrs..." class="text-field-box"></li>
+					<li class="text-center center-block">
+						<button type="button" onclick="window.location.href = 'createvisualresume.html';" class="button-normal">Create Your Visual Resume</button>
+						<button type="button" onclick="window.location.href = 'postopportunities.html';" class="button-normal">Post Opportunities</button>
+					</li>
+                </ul>
+        </form>
+		</div>
+        <!-- End:Slider area -->
+		<!-- Rightside Content Talents & Jobs -->
+		<div class="talents-jobs" id="custom-scrolling">
+			<div class="col-md-12">
+			<div class="btns">
+				<a href="#" class="btn talent-btn" id="Talents">Talents</a>
+				<a href="#" class="btn job-btn" id="Jobs">Jobs</a>
+				<a href="join.html" class="button-join pull-right">Join</a>
+			</div>
+			</div>
+			<div class="clearfix"></div>
+			<div class="btns-content">
+				<div class="" id="Talentsinfo">
+					<div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+						<a href="#"><div class="candidateinfo">
+							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 nopaddingleft nopaddingright">
+								<div class=" candidate-photo-sec">
+								<iframe width="100%" height="100%" id="ytplayer" src="https://www.youtube.com/embed/vwsfyiKkg0k?rel=0" frameborder="0" allowfullscreen></iframe>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+								<div class="candidate-info-sec">
+									<p><strong>Name :</strong> Candidate 1</p>
+									<p><strong>Location :</strong> London</p>
+									<p><strong>Skillset :</strong> Photoshop, Dreamweaver, HTML5, CSS3</p>
+									<p><strong># of years of Experience :</strong> 5 Years</p>
+								</div>
+							</div>
+						</div></a>
+					</div>
+					<div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+						<a href="#"><div class="candidateinfo">
+							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 nopaddingleft nopaddingright">
+								<div class=" candidate-photo-sec">
+								<iframe width="100%" height="100%" id="ytplayer1" src="https://www.youtube.com/embed/pohk2OjsFaY?rel=0" frameborder="0" allowfullscreen></iframe>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+								<div class="candidate-info-sec">
+									<p><strong>Name :</strong> Candidate 2</p>
+									<p><strong>Location :</strong> United States</p>
+									<p><strong>Skillset :</strong> .Net, Visual Studio</p>
+									<p><strong># of years of Experience :</strong> 3 Years</p>
+								</div>
+							</div>
+						</div></a>
+					</div>
+					<div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+						<a href="#"><div class="candidateinfo">
+							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 nopaddingleft nopaddingright">
+								<div class=" candidate-photo-sec">
+								<iframe width="100%" height="100%" id="ytplayer2" src="https://www.youtube.com/embed/59kZDAt_UoA?rel=0" frameborder="0" allowfullscreen></iframe>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+								<div class="candidate-info-sec">
+									<p><strong>Name :</strong> Candidate 3</p>
+									<p><strong>Location :</strong> California</p>
+									<p><strong>Skillset :</strong> Coraldraw, Adobe Illustrator</p>
+									<p><strong># of years of Experience :</strong> 8 Years</p>
+								</div>
+							</div>
+						</div></a>
+					</div>
+					<div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+						<a href="#"><div class="candidateinfo">
+							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 nopaddingleft nopaddingright">
+								<div class=" candidate-photo-sec">
+								<iframe width="100%" height="100%" id="ytplayer3" src="https://www.youtube.com/embed/b0NSHrbT_p0?rel=0" frameborder="0" allowfullscreen></iframe>
+								</div>
+							</div>
+							<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+								<div class="candidate-info-sec">
+									<p><strong>Name :</strong> Candidate 4</p>
+									<p><strong>Location :</strong> Spain</p>
+									<p><strong>Skillset :</strong> PHP, HTML5, AngularJs</p>
+									<p><strong># of years of Experience :</strong> 5 Years</p>
+								</div>
+							</div>
+						</div></a>
+					</div>
+				</div>
+				<div class="" id="Jobsinfo">
+					<div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+					<a href="#"><div class="jobinfo">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 nopaddingleft nopaddingright">
+                        <div class=" candidate-photo-sec">
+                                <iframe width="100%" height="100%" id="ytplayer4" src="https://www.youtube.com/embed/rz_GqnsLPTM?rel=0" frameborder="0" allowfullscreen></iframe>
+                        </div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="candidate-info-sec">
+                                <p><strong>Company Name :</strong> Company 1</p>
+									<p><strong>Position :</strong> Sr. UI Developer</p>
+									<p><strong>Skillset :</strong> Photoshop, Dreamweaver, HTML5, CSS3</p>
+									<p><strong># of years of Experience :</strong> 3+ Years</p>
+									<p><strong>Location :</strong> California</p>
+                        </div>
+						</div>
+                    </div></a></div>
+					<div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+					<a href="#"><div class="jobinfo">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 nopaddingleft nopaddingright">
+                        <div class=" candidate-photo-sec">
+                                <iframe width="100%" height="100%" id="ytplayer5" src="https://www.youtube.com/embed/XiuaGplLvjs?rel=0" frameborder="0" allowfullscreen></iframe>
+                        </div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="candidate-info-sec">
+                                <p><strong>Company Name :</strong> Company 2</p>
+									<p><strong>Position :</strong> Web Developer</p>
+									<p><strong>Skillset :</strong> PHP, .Net</p>
+									<p><strong># of years of Experience :</strong> 2+ Years</p>
+									<p><strong>Location :</strong> USA</p>
+                        </div>
+						</div>
+                    </div></a></div>
+					<div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+					<a href="#"><div class="jobinfo">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 nopaddingleft nopaddingright">
+                        <div class=" candidate-photo-sec">
+                                <iframe width="100%" height="100%" id="ytplayer6" src="https://www.youtube.com/embed/KqvFCUwSVXA?rel=0" frameborder="0" allowfullscreen></iframe>
+                        </div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="candidate-info-sec">
+                                <p><strong>Company Name :</strong> Company 3</p>
+									<p><strong>Position :</strong> UX Developer</p>
+									<p><strong>Skillset :</strong> Photoshop, Adobe Illustrator</p>
+									<p><strong># of years of Experience :</strong> 5+ Years</p>
+									<p><strong>Location :</strong> New York</p>
+                        </div>
+						</div>
+                    </div></a></div>
+					<div class="col-md-12 col-xs-12 col-sm-12 col-lg-12">
+					<a href="#"><div class="jobinfo">
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 nopaddingleft nopaddingright">
+                        <div class=" candidate-photo-sec">
+                                <iframe width="100%" height="100%" id="ytplayer7" src="https://www.youtube.com/embed/rz_GqnsLPTM?rel=0" frameborder="0" allowfullscreen></iframe>
+                        </div>
+						</div>
+						<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+                        <div class="candidate-info-sec">
+                                <p><strong>Company Name :</strong> Company 4</p>
+									<p><strong>Position :</strong> Project Manager</p>
+									<p><strong>Skillset :</strong> MS Office, Project Management</p>
+									<p><strong># of years of Experience :</strong> 8 Years</p>
+									<p><strong>Location :</strong> California</p>
+                        </div>
+						</div>
+                    </div></a></div>
+				</div>
+			</div>
+		</div>
+		
+    </section>
+	<div class="clearfix"></div>
+    <!-- =================================================
+    Banner Area End -->
+    
+    <!-- Footer Area Start 
+    ====================================================== -->
+    <footer class="footer-area">
+        <div class="copyright">
+        	<div class="container">
+            	<p>© Vizoome 2017. All rights reserved.</p>
+            </div>
+        </div>
+        <!-- End:copyright area -->
+    </footer>
+    <!-- =================================================
+    Footer Area End -->
+    
+    <script type="text/javascript" src="js/jquery-2.1.1.js"></script><!-- Owl Carousel Js -->
+    <script type="text/javascript" src="js/owl.carousel.js"></script><!-- Owl Carousel Js -->
+    <script type="text/javascript" src="js/owl-carousel-settings.js"></script><!-- Owl Carousel Settings Js -->
+    <script type="text/javascript" src="js/jquery.flexslider.js"></script><!-- Flexslider Settings Js -->
+	<script type="text/javascript" src="js/mini-grid.js"></script><!-- Mini Master Grid Js -->
+    <script type="text/javascript" src="js/settings.js"></script><!-- Settings Js -->
+    <script type="text/javascript" src="js/bootstrap.js"></script><!-- Bootstrap Js -->
+    <script type="text/javascript" src="js/featherlight.min.js" ></script><!-- Feather-Lightbox (projects) Js -->
+    <script type="text/javascript" src="js/forms.js"></script><!-- Form Js -->
+    <script type="text/javascript" src="js/animation.js" ></script><!-- Animation Js -->
+	<script>
+		jQuery(function($){
+			  if(window.screen.width > 767){
+					$(".footer-area").hide();
+						$('#custom-scrolling').bind('scroll', function(){
+							if($(this).scrollTop() + $(this).innerHeight()>=$(this)[0].scrollHeight)
+								{
+									$(".footer-area").show();
+									$('.slider').removeClass('fixed');
+									$('.search-bar').css('width', '45%');
+								}
+							else{
+									$(".footer-area").hide();
+									$('.slider').addClass('fixed');
+									$('.search-bar').css('width', '90%');
+								}
+						});
+			}
+	});
+	</script>
+	<script>
+		$('#Jobsinfo').hide();
+		$('#Talents').addClass('btn-active');
+		$('#Jobs').click(function(){
+			$('#Jobsinfo').show();
+			$('#Jobs').addClass('btn-active');
+			$('#Talents').removeClass('btn-active');
+			$('#Talentsinfo').hide();
+		});
+		$('#Talents').click(function(){
+			$('#Talentsinfo').show();
+			$('#Jobsinfo').hide();
+			$('#Talents').addClass('btn-active');
+			$('#Jobs').removeClass('btn-active');
+		});
+	</script>
+		<script>
+	$(document).ready(function(){
+var playersrc=$('#ytplayer').attr('src');
+$('#ytplayer').mouseover(function(){
+$('#ytplayer').attr('src',playersrc+'&autoplay=1');
+});
+$('#ytplayer').mouseout(function(){
+$('#ytplayer').attr('src',playersrc);
+});
+
+var playersrc2=$('#ytplayer1').attr('src');
+$('#ytplayer1').mouseover(function(){
+$('#ytplayer1').attr('src',playersrc2+'&autoplay=1');
+});
+$('#ytplayer1').mouseout(function(){
+$('#ytplayer1').attr('src',playersrc2);
+});
+var playersrc3=$('#ytplayer2').attr('src');
+$('#ytplayer2').mouseover(function(){
+$('#ytplayer2').attr('src',playersrc3+'&autoplay=1');
+});
+$('#ytplayer2').mouseout(function(){
+$('#ytplayer2').attr('src',playersrc3);
+});
+
+var playersrc4=$('#ytplayer3').attr('src');
+$('#ytplayer3').mouseover(function(){
+$('#ytplayer3').attr('src',playersrc4+'&autoplay=1');
+});
+$('#ytplayer3').mouseout(function(){
+$('#ytplayer3').attr('src',playersrc4);
+});
+
+var playersrc5=$('#ytplayer4').attr('src');
+$('#ytplayer4').mouseover(function(){
+$('#ytplayer4').attr('src',playersrc5+'&autoplay=1');
+});
+$('#ytplayer4').mouseout(function(){
+$('#ytplayer4').attr('src',playersrc5);
+});
+
+var playersrc6=$('#ytplayer5').attr('src');
+$('#ytplayer5').mouseover(function(){
+$('#ytplayer5').attr('src',playersrc6+'&autoplay=1');
+});
+$('#ytplayer5').mouseout(function(){
+$('#ytplayer5').attr('src',playersrc6);
+});
+
+var playersrc7=$('#ytplayer6').attr('src');
+$('#ytplayer6').mouseover(function(){
+$('#ytplayer6').attr('src',playersrc7+'&autoplay=1');
+});
+$('#ytplayer6').mouseout(function(){
+$('#ytplayer6').attr('src',playersrc7);
+});
+
+var playersrc8=$('#ytplayer7').attr('src');
+$('#ytplayer7').mouseover(function(){
+$('#ytplayer7').attr('src',playersrc8+'&autoplay=1');
+});
+$('#ytplayer7').mouseout(function(){
+$('#ytplayer7').attr('src',playersrc8);
+});
+
+});
+
+</script>
+</body>
+</html>
